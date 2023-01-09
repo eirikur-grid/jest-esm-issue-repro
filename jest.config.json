@@ -1,0 +1,18 @@
+{
+  "cache": false,
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy"
+  },
+  "reporters": [ "default", "jest-junit" ],
+  "testPathIgnorePatterns": [ "/node_modules/", "<rootDir>/.next/", "<rootDir>/migrate/" ],
+  "globals": {
+    "BUILD_ID": "BUILD_ID",
+    "FULLSTORY_ID": "FULLSTORY_ID",
+    "LAUNCHDARKLY_CLIENT_ID_PROD": "LAUNCHDARKLY_CLIENT_ID_PROD",
+    "LAUNCHDARKLY_CLIENT_ID_DEV": "LAUNCHDARKLY_CLIENT_ID_DEV",
+    "SENTRY_ORG_SLUG": "SENTRY_ORG_SLUG",
+    "WITH_MOCKER": false,
+    "IS_GRID_CLIENT_JEST_TEST_RUN": true
+  }
+}
